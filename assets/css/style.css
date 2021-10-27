@@ -1523,7 +1523,7 @@ p {
     height: 25%;	
 }
 .header-height{
-	height:550px;
+	height:350px;
 }
 .vision-description{
 	margin-left: -20px;
@@ -1564,4 +1564,9 @@ p {
 }
 .phone-email-icon{
 	padding-right: 10px;
+}
+	@media all and (min-width:360px) and (max-width: 767px) {
+		.row{
+		padding-left: 14px;
+		}
 }
