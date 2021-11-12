@@ -1570,3 +1570,14 @@ p {
 		padding-left: 14px;
 		}
 }
+.solid {
+  border-top: 1px solid #bbb;
+  height: 50px;
+}
+.copyright{
+	font-size: 14px;
+	color: #505b61;
+	font-weight: 100;
+    line-height: 3;
+	margin-left: 35%;
+}
