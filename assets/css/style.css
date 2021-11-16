@@ -1581,23 +1581,15 @@ p {
     line-height: 3;
 	margin-left: 35%;
 }
-.client{
-    display: flex;
-}
-.project-part .section-content{
-    margin: 0 0 0;
-        padding: 0;
-        float: left;
-        width: 100%;
-}
-.project-content-ul {
+
+.achievements-content-ul {
     margin: 0;
     padding: 0;
     float: left;
     width: 100%;
     text-align: center;
  }
-.project-content-ul li {
+.achievements-content-ul li {
      float: none;
      display: inline-block;
      color: #316dc7;
@@ -1610,12 +1602,12 @@ p {
      font-size: 30px;
 }
 
-.project-area{
+.achievements-area{
   position: relative;
   z-index: 5;
 }
 
-.project-area-border{
+.achievements-area-border{
     border-style: solid;
     border-color: #505b61;
     border-radius: 20px;
