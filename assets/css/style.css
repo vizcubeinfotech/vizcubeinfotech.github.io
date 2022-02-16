@@ -1184,6 +1184,7 @@ p {
      08.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
+height:auto;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1216,22 +1217,16 @@ p {
     color: #FE806D; }
   .single-testimonial .testimonial-text {
     margin-top: 25px; }
-  .single-testimonial .testimonial-author {
-    margin-top: 30px; }
-    .single-testimonial .testimonial-author .author-image {
-      position: relative; }
-      .single-testimonial .testimonial-author .author-image .author {
-        position: absolute;
-        top: 17px;
-        left: 17px;
-        width: 80px;
-        height: 80px; }
-    .single-testimonial .testimonial-author .author-content .holder-name {
-      font-size: 18px;
-      font-weight: 700;
-      color: #2E2E2E; }
-    .single-testimonial .testimonial-author .author-content .text {
-      font-size: 15px; }
+
+  .single-testimonial .author-content .holder-name {
+             font-size: 18px;
+             font-weight: 700;
+             color: #2E2E2E;
+             padding-top: 15px;}
+
+  .single-testimonial .author-content .text {
+           font-size: 15px; }
+
   .single-testimonial:hover {
     border-color: #FE7A7B; }
     .single-testimonial:hover .testimonial-review .quota i {
@@ -1618,4 +1613,21 @@ p {
 }
 .upwork{
     font-size: 25px;
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 165px;
+}
+.showContent {
+    line-height: 1em;
+    height: auto;
+}
+.showContent{
+    height: auto;
+}
+.show-more {
+    padding: 10px 0;
+    text-align: center;
 }
