@@ -89,8 +89,8 @@ $(function () {
     $('.testimonial-active').slick({
         dots: true,
         speed: 800,
-        arrows: false,
         centerMode: true,
+        arrows: false,
         centerPadding: "0",
         slidesToShow: 3,
         slidesToScroll: 4,
@@ -375,20 +375,21 @@ $(function () {
         },
         "retina_detect": !0
     });
-    $(".show-more a").on("click", function() {
+    $(".show-more button").on("click", function() {
         var $this = $(this);
-        var $content = $this.parent().prev("div.testimonial-text");
-        var linkText = $this.text().toUpperCase();
 
-        if(linkText === "SHOW MORE"){
-            linkText = "Show less";
+        var $content = $this.parent().prev("div.testimonial-text");
+        var collapseText = $this.text().toUpperCase();
+
+        if(collapseText === "SHOW MORE"){
+            collapseText = "Show less";
             $content.switchClass("hideContent", "showContent", 400);
         } else {
-            linkText = "Show more";
+            collapseText = "Show more";
             $content.switchClass("showContent", "hideContent", 400);
         };
 
-        $this.text(linkText);
+        $this.text(collapseText);
     });
 });
 
