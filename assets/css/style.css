@@ -602,8 +602,8 @@ p {
     .navbar-nav .nav-item {
       margin: 0; } }
   .navbar-nav .nav-item a {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     color: #fff;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
