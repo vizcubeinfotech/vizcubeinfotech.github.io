@@ -114,6 +114,24 @@
 
     border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
+/* .slick-arrow.slick-hidden {
     display: none;
+} */
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+    border-left: 25px solid #361CC1;
+    border-bottom: 10px solid transparent;
+    background: transparent;
+    border-right: transparent;
+}
+.slick-arrow.slick-prev {
+    transform: rotate(180deg);
+}
+.slick-arrow.slick-next {
+    right: 0;
 }

@@ -90,7 +90,7 @@ $(function () {
         dots: true,
         speed: 800,
         centerMode: true,
-        arrows: false,
+        arrows: true,
         centerPadding: "0",
         slidesToShow: 3,
         slidesToScroll: 4,
@@ -122,6 +122,9 @@ $(function () {
             },
         ]
     });
+
+    $('.slick-arrow.slick-prev').text('')
+    $('.slick-arrow.slick-next').text('')
 
 
     //===== Back to top
