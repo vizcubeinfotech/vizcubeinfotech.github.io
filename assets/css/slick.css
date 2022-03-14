@@ -114,6 +114,32 @@
 
     border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
+/* .slick-arrow.slick-hidden {
     display: none;
+} */
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+    border-left: 30px solid #fe8464;
+    border-bottom: 15px solid transparent;
+    background: transparent;
+    border-right: transparent;
+}
+.slick-arrow.slick-prev {
+    transform: rotate(180deg);
+    left: -20px;
+}
+.slick-arrow.slick-next {
+    right: -20px;
+}
+
+/* The slider arrow would only for desktop and laptop screen */
+@media only screen and (max-width : 991px) {
+    .slick-arrow {
+        display: none !important;
+    }  
 }
