@@ -45,7 +45,7 @@ body {
   box-sizing: border-box; }
 
 img {
-  max-width: 100%; }
+  max-width: 90%; }
 
 a:focus,
 input:focus,
@@ -106,9 +106,9 @@ ul, ol {
   list-style-type: none; }
 
 p {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 19px;
   color: black;
   margin: 0px; }
 
@@ -590,7 +590,7 @@ p {
     padding: 5px 12px; } }
 
 .navbar-nav .nav-item {
-  margin-right: 45px;
+  margin-right: 25px;
   position: relative; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-nav .nav-item {
@@ -602,7 +602,7 @@ p {
     .navbar-nav .nav-item {
       margin: 0; } }
   .navbar-nav .nav-item a {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -1642,4 +1642,9 @@ height:auto;
 
 .show-more button:hover {
   color: #0056b3;
+}
+.about-content {
+	font-size: 18px;
+    font-family: cursive;
+    justify-content: flex-start;
 }
