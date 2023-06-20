@@ -123,18 +123,18 @@
     z-index: 1;
     width: 0;
 	height: 0;
-	border-top: 15px solid transparent;
-    border-left: 30px solid #fe8464;
-    border-bottom: 15px solid transparent;
+	border-top: 20px solid transparent;
+    border-left: 40px solid #fe8464;
+    border-bottom: 20px solid transparent;
     background: transparent;
     border-right: transparent;
 }
 .slick-arrow.slick-prev {
     transform: rotate(180deg);
-    left: -20px;
+    left: -50px;
 }
 .slick-arrow.slick-next {
-    right: -20px;
+    right: -50px;
 }
 
 /* The slider arrow would only for desktop and laptop screen */
