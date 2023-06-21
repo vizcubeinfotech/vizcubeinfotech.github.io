@@ -1648,3 +1648,7 @@ height:auto;
     font-family: cursive;
     justify-content: flex-start;
 }
+p.testimonial {
+    font-size: 17px;
+    line-height: 25px;
+}
